@@ -287,7 +287,7 @@ HIC ke Fairy (Tidak bisa ping)
 ![alt text](images/image3.png)
 
 
-### Misi 2 No 2
+### Misi 2 No 3
 Hanya Fairy yang dapat mengakses HDD, dan gunakan nc (netcat) untuk memastikan akses
 
 Jalankan semuanya (dhcpnya), kemudian di HDD command
@@ -311,33 +311,33 @@ iptables -D INPUT 1
 ```
 
 dari Fairy ke HDD (bisa ping)
-![alt text](image.png)
+![alt text](images/image9.png)
 
 dari Lumina ke HDD (tidak bisa ping)
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 untuk testing dengan netcat, pastikan membuka port yang akan digunakan di HDD
 *jangan lupa untuk restart HDD dan install netcat dulu `apt-get update` dan `apt-install netcat`* kemudian lakukan blok kayak diatas dan testing netcat dengan command di HDD:
 ```
 nc -l -p 3030
 ```
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 testing pada fairy dengan command
 ```
 echo "pesan" |nc 10.78.2.10 3030
 ```
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 lalu balik lagi ke  HDD <br>
 **Berhasil*
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 testing Pada LuminaSquare dengan cara buka port pada HDD disini saya menggunakan port 3030
 ```
 nc -l -p 3030
 ```
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 kemudian pada Lumina command:
 ```
@@ -349,7 +349,7 @@ echo "pesan" |nc 10.78.2.10 3030
 lalu balik lagi ke HDD <br>
 **tidak terkirim apa - apa*
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 
 
