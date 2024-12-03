@@ -12,6 +12,9 @@
 ## Subnetting
 ![alt text](images/image1.png)
 
+## Link Pembagian IP - VLSM
+https://docs.google.com/spreadsheets/d/1vULZWzsCS2hpv7os7331vM3Zk-mAp_iKmx8N_rPTOfg/edit?usp=sharing
+
 ## Konfigurasi Network
 ### NewEridu
 ```
