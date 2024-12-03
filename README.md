@@ -308,7 +308,7 @@ iptables -P INPUT DROP
 
 untuk memberikan izin Fairy mengakses HDD (DNS) lakukan command
 ```
-iptables -A INPUT -s 10.72.2.11 -j ACCEPT
+iptables -A INPUT -s 10.78.2.11 -j ACCEPT
 ```
 untuk Drop semua akses lakukan command
 ```
